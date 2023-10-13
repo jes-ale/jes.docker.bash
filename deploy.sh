@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# This script uses a .env file and a the host network, meant to run standalone containers (no docker compose)
 # Define environment variables for container and image names
 CONTAINER="pos_coffee_container"
 IMAGE="pos_coffee_image"
