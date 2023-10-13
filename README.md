@@ -1,2 +1,2 @@
 # jes.docker.bash
-Repository of bash scripts to manage docker engine on production environments.
+Repository of my personal bash scripts to manage docker engine on production environments.
