@@ -1,8 +1,8 @@
 #!/bin/bash
 # This script uses a .env file & the host network, meant to run standalone containers (no docker compose)
 # Define environment variables for container and image names
-CONTAINER="pos_coffee_container"
-IMAGE="pos_coffee_image"
+CONTAINER="name_per_git_repo_or_pass_as_args"
+IMAGE="name_per_git_repo_or_pass_as_args"
 
 # Stop and remove the existing container (if it exists)
 if sudo docker ps -a | grep -q $CONTAINER; then
